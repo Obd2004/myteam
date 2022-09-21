@@ -1,0 +1,35 @@
+nav{
+    background: #014E56;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #014E56;
+    padding: 34px;
+    position: relative;
+    .nav_logo{
+        color: #fff;
+    }
+    .nav_links {
+        position: absolute;
+        left: 170px;
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 40px;
+            padding-bottom: 122px;
+        }
+    }
+    .nav_btn{
+        padding: 40px;
+        button{
+            background: #014E56;
+            border: 2px solid #FFFFFF;
+            border-radius: 24px;
+            width: 153px;
+            height: 48px;
+            color: #FFFFFF;
+        }
+    }
+}

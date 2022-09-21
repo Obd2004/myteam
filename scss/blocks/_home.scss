@@ -1,0 +1,118 @@
+.find{
+    background: #014E56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+    z-index: -1;
+    h1{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 24px;
+        margin-top: 100px;
+        span{
+            color: #F67E7E;
+        }
+    }
+    p{
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 156px;
+    }
+    .circle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background: #014E56;
+        margin-right: 110px;
+
+    }
+    .circle1{
+        width: 200px;
+        height: 200px;
+        background: #2C6269;
+        border-radius: 50%;
+        z-index: 0;
+    }
+    .circle2{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #F67E7E;
+        mix-blend-mode: normal; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 110px;
+        z-index: 0;
+
+    }
+    .circle2::before{
+        display: block;
+        content: "";    
+        width: 66px;
+        height: 66px;
+        background: #014E56;
+        border-radius: 50%;
+    }
+    .circle2::after{
+        display: block;
+        content: '';
+        width: 43px;
+        height: 43px;   
+        background: #79C8C7;
+        transform: rotate(-180deg);
+        position: absolute;
+        top: 0px;
+        right: -17px;
+    }
+    .circle1_hr1{
+        width: 100px;
+        height: 4px;
+        background: #C4FFFE;
+    }
+    .circle1_hr2{
+        width: 100px;
+        height: 4px;
+        background: #C4FFFE;
+        margin-top: 4px;
+    }
+    .circle1_hr3{
+        width: 100px;
+        height: 4px;
+        background: #C4FFFE;
+        margin-top: 4px;
+    }
+    .circle1_hr4{
+        width: 100px;
+        height: 4px;
+        background: #C4FFFE;
+        margin-top: 4px;
+    }
+    .circle1_hr5{
+        width: 100px;
+        height: 4px;
+        background: #C4FFFE;
+        margin-top: 4px;
+    }
+    .circle1_hr6{
+        width: 100px;
+        height: 4px;
+        background: #C4FFFE;
+        margin-top: 4px;
+    }
+}   
